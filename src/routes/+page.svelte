@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Turn know-how into clear work instructions"
+  subtitle="Squint transforms tribal knowledge into standardized, visual procedures—so operators get answers faster, training takes less time, and your floor stays productive."
+  customers={[
+    {
+      name: "Maria Rodriguez",
+      position: "Training Coordinator, Equipment Manufacturing",
+      imageSrc: "/generated/image-a-female-industrial-training-coordinator.webp"
+    },
+    {
+      name: "Derrick Brooks",
+      position: "Assembly Line Supervisor, Manufacturing",
+      imageSrc: "/generated/image-a-male-assembly-line-supervisor-standing.webp"
+    },
+    {
+      name: "Emily Chen",
+      position: "Plant Manager, Food & Beverage",
+      imageSrc: "/generated/image-a-female-food-and-beverage-plant-manager.webp"
+    },
+    {
+      name: "Tom Foster",
+      position: "Operations Manager, Energy",
+      imageSrc: "/generated/image-a-male-operations-manager-standing-smart.webp"
+    },
+    {
+      name: "Lucas Miller",
+      position: "Equipment Technician, Industrial",
+      imageSrc: "/generated/image-a-male-equipment-technician-in-safety-ge.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/cat.com',
+		'https://logo.clearbit.com/pge.com',
+		'https://logo.clearbit.com/siemens.com',
+		'https://logo.clearbit.com/danone.com'
+	]}
+/>
 
 <Summary
 	generating
