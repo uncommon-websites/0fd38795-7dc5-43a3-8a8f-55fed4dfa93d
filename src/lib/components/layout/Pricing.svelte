@@ -37,114 +37,159 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Simple, transparent pricing",
 		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		tierNames = ["Essentials", "Professional", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Included procedures",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Essentials: "Up to 100",
+					Professional: "Unlimited",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Included users/operators",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
+					Essentials: "Up to 50",
+					Professional: "Up to 500",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Storage",
+				name: "AI video-to-procedure conversion",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
+					Essentials: true,
+					Professional: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Spatial equipment guidance",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Essentials: false,
+					Professional: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Digital data capture (photos, forms, audio)",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
+					Essentials: true,
+					Professional: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "Basic usage analytics",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Essentials: true,
+					Professional: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Advanced reporting & dashboards",
+				tiers: {
+					Essentials: false,
+					Professional: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Compliance-ready exports",
+				tiers: {
+					Essentials: false,
+					Professional: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Integration support (CMMS, ERP)",
+				tiers: {
+					Essentials: false,
+					Professional: "Standard integrations",
+					Enterprise: "Full integration services"
+				}
+			},
+			{
+				name: "Single sign-on",
+				tiers: {
+					Essentials: false,
+					Professional: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Multi-factor authentication",
+				tiers: {
+					Essentials: false,
+					Professional: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Enterprise security & audits",
+				tiers: {
+					Essentials: false,
+					Professional: "SOC 2 Type II",
+					Enterprise: "SOC 2 Type II + custom security requirements"
+				}
+			},
+			{
+				name: "Priority support",
+				tiers: {
+					Essentials: "Email only",
+					Professional: "Priority response",
+					Enterprise: "Dedicated success manager"
+				}
+			},
+			{
+				name: "Deployment options",
+				tiers: {
+					Essentials: "Hosted only",
+					Professional: "Hosted with optional sandboxes",
+					Enterprise: "Custom deployment options available"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Essentials",
+				monthlyPrice: null,
+				yearlyPrice: 15000,
+				description: "Digitize tribal knowledge and share clear procedures fast.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Up to 100 procedures",
+					"Up to 50 users/operators",
+					"AI video-to-procedure conversion",
+					"Digital data capture (photos, forms, audio)",
+					"Basic usage analytics",
+					"Email support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Start with Essentials",
+					href: "/contact-sales"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Professional",
+				monthlyPrice: null,
+				yearlyPrice: null,
+				description: "Everything in Essentials plus advanced controls, reporting, and integrations.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Unlimited procedures",
+					"Up to 500 users/operators",
+					"Spatial equipment guidance",
+					"Advanced reporting & dashboards",
+					"Compliance-ready exports",
+					"Integration support (CMMS, ERP)",
+					"Single sign-on & multi-factor authentication",
+					"SOC 2 Type II security",
+					"Priority support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Request a demo",
+					href: "/contact-sales"
 				},
 				highlight: true
 			},
@@ -152,19 +197,18 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "Built for fully integrated rollouts across complex sites and teams.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Unlimited procedures & users",
+					"Custom integration services",
+					"SOC 2 Type II + custom security requirements",
+					"Dedicated success manager",
+					"Custom deployment options",
+					"Full feature set"
 				],
 				cta: {
 					label: "Contact sales",
-					href: "/contact"
+					href: "/contact-sales"
 				}
 			}
 		]

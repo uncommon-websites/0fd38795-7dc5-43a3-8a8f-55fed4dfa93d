@@ -26,77 +26,69 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="Redefining frontline work with AI"
+	subtitle="Faster training, safer teams, smarter tools"
+	imageSrc="/generated/image-a-diverse-group-of-professionals-collabo.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
-	]}
+        "Most industrial teams struggle with a simple but costly problem: the knowledge needed to do the job safely and correctly often lives in someone’s head. It rarely makes it into standardized instructions. Founders Devin Bhushan, Dylan Conway, and Jim Zhu saw firsthand how critical know-how was getting lost—in videos, spreadsheets, inboxes, or retired supervisors. New hires would shadow experienced operators for weeks. And whenever something went wrong on the line, answers were hard to find.",
+        "That’s why they built Squint. It uses AI to capture tribal knowledge from fragmented sources—like how-to videos or maintenance checklists—and instantly turns it into clean, step-by-step procedures your team can follow. These aren’t just digital PDFs. Operators get hands-on visual guidance—photos, video clips, and spatial steps—stitched together into one consistent view. What was once learned slowly through trial and error is now accessible in real time. No downloads, no hardware, just real-world help that lives on the devices operators already use.",
+        "The goal is simple: better training, safer work, and fewer costly mistakes. Squint makes it easy for teams to do work correctly the first time—and confidently repeat it the next. That’s what drives us: giving every frontline worker an edge, keeping plants productive, and making complex tasks less overwhelming for the people doing them every day."
+    ]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} />
+<Culture />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="The team behind Squint."
+  subtitle="Meet our founders."
+  stakeholders={[
+    {
+      name: "Devin Bhushan",
+      position: "CEO & Founder",
+      bio: "Devin built Squint to give frontline workers instant access to everything they need to do great work. Before Squint, Devin led AR and computer vision at enterprise scale at Splunk and Salesforce.",
+      image: "/generated/image-a-portrait-of-devin-bhushan-a-ceo-with-a.webp"
+    },
+    {
+      name: "Dylan Conway",
+      position: "Founding Customer Lead",
+      bio: "Dylan ensures Squint works in the real world—learning directly from teams on the floor and keeping operators in focus. He draws on years supporting digital transformation at manufacturing plants across the U.S.",
+      image: "/generated/image-a-portrait-of-dylan-conway-a-customer-le.webp"
+    },
+    {
+      name: "Jim Zhu",
+      position: "Founding Architect",
+      bio: "Jim designs simple, reliable systems that just work. He’s spent his career engineering scalable platforms for data-driven companies, always pushing for clarity and stability behind the scenes.",
+      image: "/generated/image-a-portrait-of-jim-zhu-an-architect-with-.webp"
+    }
+  ]}
 />
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Passionate about meaningful work?"
+  subtitle="We’re always looking for builders and partners"
+  description="If you want to help make frontline work safer and smarter or if your company cares about performance in the field—we’d love to connect. Say hello or check out open roles."
+  imageSrc="/generated/image-a-diverse-group-of-people-in-a-cozy-home.webp"
+  callsToAction={[
+    {
+      href: "mailto:hello@squint.ai",
+      label: "Email us",
+      variant: "primary"
+    },
+    {
+      href: "/careers",
+      label: "See open roles",
+      variant: "secondary"
+    }
+  ]}
 />

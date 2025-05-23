@@ -121,53 +121,62 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Jamal Walker",
+    position: "Software Engineer",
+    company: "Engineering Team",
+    quote:
+      "At Squint, everyone’s ideas are genuinely heard. The team is welcoming and I get to work on projects that matter. The company culture makes every day enjoyable.",
+    image:
+      "/generated/image-a-young-black-male-software-engineer-smi.webp"
+  },
+  {
+    name: "Anika Patel",
+    position: "Product Manager",
+    company: "Product Team",
+    quote:
+      "Growth is built into every part of the experience here. I’ve been able to take on new challenges and develop skills with the full support of my team.",
+    image:
+      "/generated/image-a-south-asian-female-product-manager-smi.webp"
+  },
+  {
+    name: "Matt Evans",
+    position: "Senior Marketing Lead",
+    company: "Marketing Team",
+    quote:
+      "What stands out to me is the balance between high standards and a truly positive work environment. People push each other to do great work, but there’s always kindness and respect.",
+    image:
+      "/generated/image-a-white-male-senior-marketing-lead-in-a-.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply online",
+    description: "Send us your resume or portfolio. No cover letter required—just share why Squint caught your eye."
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description: "Have a short, friendly chat with someone from our team. We'll discuss your background and goals."
+  },
+  {
+    step: 3,
+    title: "Show what you can do",
+    description: "Take on a relevant challenge or case (nothing lengthy) so you can show us how you think."
+  },
+  {
+    step: 4,
+    title: "Meet the team",
+    description: "Meet more team members and see what it’s like to work together."
+  },
+  {
+    step: 5,
+    title: "Decision & feedback",
+    description: "Get a clear answer within a week, with thoughtful feedback and next steps—no endless waiting."
+  }
+];
 
 	const values = [
 		{
@@ -191,8 +200,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+  title="Transform industry. Grow with us."
+  subtitle="Build cutting-edge AI for the real world—on a team that puts people first."
+  imageSrc="/generated/image-a-diverse-group-of-individuals-in-a-tech.webp"
 />
 
 <!-- Why Join Us Section -->

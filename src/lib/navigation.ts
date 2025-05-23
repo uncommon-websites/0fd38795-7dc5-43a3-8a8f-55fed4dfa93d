@@ -64,42 +64,26 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
-				href: "/use-cases/healthcare",
-				image:
-					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
-
-				description:
-					"Innovative solutions for patient care, delivering advanced analytics to improve diagnostics, enhancing personalized treatment plans through real‑time data insights, and seamlessly integrating with existing healthcare systems to drive better outcomes and streamline clinical workflows",
+				label: "Capture hidden know-how",
+				href: "/use-cases/tribal-knowledge-to-digital-procedures",
+				image: "/generated/image-an-industrial-worker-in-a-busy-factory-e.webp",
+				description: "Turn expert videos and walkthroughs into digital procedures any operator can use for complex work.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Finance",
-				href: "/use-cases/finance",
-				image:
-					"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Streamlining operations and compliance across financial services by automating regulatory reporting, strengthening risk management, integrating advanced real‑time analytics, and ensuring robust audit trails for enhanced governance and operational efficiency",
+				label: "AR-assisted guidance",
+				href: "/use-cases/ar-guided-support",
+				image: "/generated/image-a-maintenance-technician-in-a-modern-ind.webp",
+				description: "Deliver step-by-step visual instructions and spatial cues right on the floor—using screens or wearables.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Technology",
-				href: "/use-cases/technology",
-				image:
-					"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Cutting-edge tools for tech companies, offering scalable cloud-based platforms, AI-driven development frameworks, secure collaboration environments, and streamlined deployment pipelines to accelerate innovation and deliver market-leading solutions",
-				showInNav: true,
-				showInFooter: true
-			},
-			{
-				label: "Education",
-				href: "/use-cases/education",
-				image:
-					"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description: "Enhancing learning experiences",
+				label: "Performance analytics",
+				href: "/use-cases/operator-insight-and-performance",
+				image: "/generated/image-a-production-supervisor-in-a-lively-manu.webp",
+				description: "Gain floor-wide insights on training effectiveness, usage, and knowledge gaps to improve safety and quality.",
 				showInNav: true,
 				showInFooter: true
 			}

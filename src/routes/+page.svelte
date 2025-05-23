@@ -53,107 +53,109 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Squint uses AI to turn videos, spreadsheets, and manuals into step-by-step work instructions for industrial teams. Operators get clear, guided help right on the floor. Training gets easier, and procedures stay consistent everywhere."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Ari Benton",
+			position: "Reliability Manager, Tepco Manufacturing",
+			company: "Tepco Manufacturing",
+			quote: "We trimmed our training time by 30%—freeing up hours every week and getting new operators productive on day one.",
+			image: "/generated/image-a-male-reliability-manager-in-a-large-in.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Niko Kwan",
+			position: "Senior Training Supervisor, ClearRiver Energy",
+			company: "ClearRiver Energy",
+			quote: "We reduced critical errors on the floor with smart step-by-step procedures. Our teams complete advanced tasks with confidence.",
+			image: "/generated/image-an-asian-male-senior-training-supervisor.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Ren Walsh",
+			position: "Production Systems Analyst, Nokona Foods",
+			company: "Nokona Foods",
+			quote: "Squint let us digitize and standardize instructions, saving $72k in quality costs in just six months.",
+			image: "/generated/image-a-female-production-systems-analyst-in-a.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
-	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
-	]}
+  title="Features"
+  subtitle="Squint covers every step—capture, instruction, guidance, support, insights, and security."
+  features={[
+    {
+      title: "AI transforms old documents and videos",
+      description: "Convert spreadsheets, PDFs, and how-to videos into interactive procedures in minutes using Squint's AI."
+    },
+    {
+      title: "Standardized digital work instructions",
+      description: "Create and distribute consistent procedures with step-by-step video, image, and text instructions for every task."
+    },
+    {
+      title: "AR-based spatial mapping and guidance",
+      description: "Pin instructions, visual markers, and media directly to physical equipment—no QR codes or special hardware required."
+    },
+    {
+      title: "AI-powered on-the-job help",
+      description: "Get real-time answers and context-specific guidance from AI, accessible instantly by any operator on the floor."
+    },
+    {
+      title: "Real-time analytics and performance tracking",
+      description: "Monitor task completion, identify knowledge gaps, and track performance trends across teams and facilities."
+    },
+    {
+      title: "Secure deployment with SSO and compliance",
+      description: "SOC 2 Type II compliant with enterprise-ready login options including single sign-on and badge-based access."
+    }
+  ]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Capture hidden know-how before it’s lost",
+			description: "Turn floor videos and expert walkthroughs into searchable, repeatable procedures that anyone can follow.",
+			image: "/generated/image-an-industrial-worker-in-a-busy-factory-e.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/tribal-knowledge-to-digital-procedures",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Guide every step with AR-assistance",
+			description: "Give operators live, hands-free visual instructions directly on screens or wearables, right where they work.",
+			image: "/generated/image-a-maintenance-technician-in-a-modern-ind.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/ar-guided-support",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Spot training gaps and raise performance",
+			description: "Monitor usage, completion, and timing to uncover quality issues and knowledge gaps by shift, site, or task.",
+			image: "/generated/image-a-production-supervisor-in-a-lively-manu.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/operator-insight-and-performance",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="The fastest way to get operators up to speed"
+  subtitle="Do the job right. First time, every time."
+  description="Squint turns know-how into clear instructions your team can use instantly—no delays, no confusion. From routine tasks to urgent fixes, operators follow accurate step-by-step guidance—right where work happens."
+  imageSrc="/generated/image-a-joyful-female-industrial-supervisor-st.webp"
+  callsToAction={[
+    { href: "/get-started", label: "Get started", variant: "primary" },
+    { href: "/contact", label: "Talk to sales", variant: "secondary" },
+  ]}
+/>
